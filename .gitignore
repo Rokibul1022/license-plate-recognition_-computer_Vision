@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyTorch
+*.pth
+*.pt
+*.ckpt
+
+# Model outputs
+outputs/
+runs/
+checkpoints/
+
+# Data
+data/
+*.jpg
+*.jpeg
+*.png
+*.mp4
+*.avi
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Large files
+*.zip
+*.tar.gz
+*.rar
+
+# HuggingFace cache
+.cache/
+transformers_cache/
+
+# Weights
+*.safetensors
+*.bin
