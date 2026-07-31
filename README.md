@@ -278,7 +278,7 @@ If you use this system in your research, please cite:
 ```bibtex
 @misc{bd_lpr_vlm_2024,
   title={Fine-Tuned Multitask Vision-Language Model for Context-Aware Bangladeshi License Plate Recognition},
-  author={[Your Name]},
+  author={[Rokibul]},
   year={2024},
   note={Academic Research System}
 }
@@ -304,14 +304,6 @@ python deploy/benchmark.py && python deploy/verify_accuracy.py --limit 100
 
 Details, dynamic-shape handling and troubleshooting: [`deploy/README.md`](deploy/README.md).
 
-## ⚠️ Ethical Considerations
-
-- All personal data are **synthetically generated**
-- System designed for **academic research only**
-- Not intended for real-world surveillance without proper authorization
-- Privacy and data protection must be considered in any deployment
-
-## 🐛 Troubleshooting
 
 ### CUDA Out of Memory
 - Reduce batch size in training scripts

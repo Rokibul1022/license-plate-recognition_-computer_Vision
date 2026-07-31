@@ -6,16 +6,12 @@ Benchmark the plate detector across inference backends.
 Reports per-inference latency, throughput (FPS) and optional VRAM delta.
 Preprocessing is excluded so the numbers isolate engine speed.
 
-Results are written to outputs/deploy/benchmark_results.json first, then
-rendered to outputs/deploy/benchmark_chart.png.
+Results are written to deploy/results/benchmark_results.json first, then
+rendered to deploy/results/benchmark_chart.png.
 
 Run with a trained model from the project root:
 
     python deploy/benchmark.py [--weights ...] [--onnx ...] [--engine ...] [--imgsz 640]
-
-Run in demo mode (no model/dependencies required, synthetic numbers):
-
-    python deploy/benchmark.py --demo
 """
 
 import argparse
@@ -113,14 +109,6 @@ def bench_tensorrt(engine_path, imgsz, n, warmup):
 
     vram = after - before if before >= 0 else -1.0
     return ms, vram
-
-
-def demo_results():
-    return [
-        {"name": "PyTorch (FP32)", "latency_ms": 18.4, "fps": 54.3, "vram_mb": 1620.0},
-        {"name": "ONNX Runtime", "latency_ms": 11.2, "fps": 89.2, "vram_mb": 1280.0},
-        {"name": "TensorRT (FP16)", "latency_ms": 4.1, "fps": 243.9, "vram_mb": 980.0},
-    ]
 
 
 def save_json(results, path):
