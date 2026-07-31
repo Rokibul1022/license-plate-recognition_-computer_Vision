@@ -125,7 +125,6 @@ def create_database(db_path="database/vehicle_registry.db", num_records=1000):
     conn.commit()
     conn.close()
     print(f"Database created at {db_path}")
-    print("⚠️ DISCLAIMER: All personal data are synthetically generated for academic research.")
 
 if __name__ == "__main__":
     import os

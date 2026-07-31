@@ -20,7 +20,6 @@ import torch
 st.set_page_config(page_title="BD License Plate Recognition System", layout="wide")
 
 st.title("🚗 Bangladeshi License Plate Recognition & Vehicle Information Retrieval")
-st.markdown("**DISCLAIMER:** All personal data used in this system are synthetically generated for academic research.")
 
 # Initialize models (cached)
 @st.cache_resource

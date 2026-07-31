@@ -356,17 +356,11 @@ For issues, questions, or contributions:
   title={Fine-Tuned Multitask Vision-Language Model for Context-Aware 
          Bangladeshi License Plate Recognition and Intelligent Vehicle 
          Information Retrieval from Video},
-  author={[Your Name]},
+  author={Rokibul},
   year={2024},
   note={Academic Research System - RTX 3060 Optimized}
 }
 ```
-
----
-
-## ⚠️ Ethical Disclaimer
-
-**IMPORTANT:** All personal data used in this research are artificially generated for academic experimentation. This system is designed for research purposes only and should not be deployed for real-world surveillance without proper authorization, privacy considerations, and compliance with local laws.
 
 ---
 

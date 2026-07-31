@@ -4,8 +4,6 @@
 
 ## 🎓 Academic Research System
 
-**DISCLAIMER:** All personal data used in this research are artificially generated for academic experimentation.
-
 ## 📋 System Overview
 
 This is a complete end-to-end intelligent surveillance pipeline that:
@@ -278,7 +276,7 @@ If you use this system in your research, please cite:
 ```bibtex
 @misc{bd_lpr_vlm_2024,
   title={Fine-Tuned Multitask Vision-Language Model for Context-Aware Bangladeshi License Plate Recognition},
-  author={[Rokibul]},
+  author={Rokibul},
   year={2024},
   note={Academic Research System}
 }
