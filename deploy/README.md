@@ -22,15 +22,17 @@ PaliGemma/TrOCR stay as the accuracy-first recognition stage. The story is:
 ## Benchmark output (JSON → chart)
 
 `benchmark.py` writes the results to **JSON first**, then renders them as a
-chart:
+chart. Both artifacts are committed under `deploy/results/`:
 
 ```text
-outputs/deploy/
+deploy/results/
 ├── benchmark_results.json   # structured numbers (latency / FPS / VRAM)
 └── benchmark_chart.png      # latency + throughput + VRAM bar charts
 ```
 
-The JSON structure:
+![Benchmark chart](results/benchmark_chart.png)
+
+Measured on an RTX 3060 (12 GB) at 640×640. The JSON structure:
 
 ```json
 {

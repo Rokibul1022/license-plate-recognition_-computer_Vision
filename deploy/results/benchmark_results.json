@@ -1,0 +1,28 @@
+{
+  "benchmark": "plate_detector",
+  "device": "CUDA",
+  "imgsz": 640,
+  "iters": 200,
+  "warmup": 20,
+  "timestamp": "2026-07-31T08:45:28.800665",
+  "backends": [
+    {
+      "name": "PyTorch (FP32)",
+      "latency_ms": 18.1,
+      "fps": 55.2,
+      "vram_mb": 1150.08
+    },
+    {
+      "name": "ONNX Runtime",
+      "latency_ms": 12.2,
+      "fps": 82.0,
+      "vram_mb": 1090
+    },
+    {
+      "name": "TensorRT (FP16)",
+      "latency_ms": 5.1,
+      "fps": 196.1,
+      "vram_mb": 980.0
+    }
+  ]
+}

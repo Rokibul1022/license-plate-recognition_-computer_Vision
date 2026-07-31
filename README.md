@@ -300,6 +300,8 @@ python deploy/benchmark.py && python deploy/verify_accuracy.py --limit 100
 | ONNX Runtime | 12.2 | 82.0 | 1090 | CUDA EP |
 | TensorRT FP16 | 5.1 | 196.1 | 980 | RTX 3060 |
 
+![Benchmark chart](deploy/results/benchmark_chart.png)
+
 Details, dynamic-shape handling and troubleshooting: [`deploy/README.md`](deploy/README.md).
 
 ## ⚠️ Ethical Considerations

@@ -68,3 +68,8 @@ transformers_cache/
 # Weights
 *.safetensors
 *.bin
+
+# Committed benchmark artifacts (kept for results visibility)
+!deploy/results/
+!deploy/results/*.png
+!deploy/results/*.json

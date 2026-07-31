@@ -19,8 +19,8 @@ from benchmark import plot_results
 
 def main():
     p = argparse.ArgumentParser(description="Plot benchmark results from JSON")
-    p.add_argument("--json", default="outputs/deploy/benchmark_results.json")
-    p.add_argument("--out-chart", default="outputs/deploy/benchmark_chart.png")
+    p.add_argument("--json", default="deploy/results/benchmark_results.json")
+    p.add_argument("--out-chart", default="deploy/results/benchmark_chart.png")
     args = p.parse_args()
 
     with open(args.json, encoding="utf-8") as f:

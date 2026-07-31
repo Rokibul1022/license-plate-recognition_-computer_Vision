@@ -197,8 +197,8 @@ def main():
         choices=["pytorch", "onnx", "trt"],
     )
     p.add_argument("--demo", action="store_true", help="Use sample numbers (no model needed)")
-    p.add_argument("--out-json", default="outputs/deploy/benchmark_results.json")
-    p.add_argument("--out-chart", default="outputs/deploy/benchmark_chart.png")
+    p.add_argument("--out-json", default="deploy/results/benchmark_results.json")
+    p.add_argument("--out-chart", default="deploy/results/benchmark_chart.png")
     args = p.parse_args()
 
     if args.demo:
