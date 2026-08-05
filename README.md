@@ -2,7 +2,7 @@
 
 **Fine-Tuned Multitask Vision-Language Model for Context-Aware Bangladeshi License Plate Recognition and Intelligent Vehicle Information Retrieval from Video**
 
-## **Demo** - https://github.com/Rokibul1022/license-plate-recognition_-computer_Vision/blob/main/demo.mp4
+**Demo** - https://github.com/Rokibul1022/license-plate-recognition_-computer_Vision/blob/main/demo.mp4
 
 ##  System Overview
 
