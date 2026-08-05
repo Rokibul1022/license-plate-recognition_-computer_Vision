@@ -2,20 +2,20 @@
 
 **Fine-Tuned Multitask Vision-Language Model for Context-Aware Bangladeshi License Plate Recognition and Intelligent Vehicle Information Retrieval from Video**
 
-## 🎓 Academic Research System
+## **Demo** - https://github.com/Rokibul1022/license-plate-recognition_-computer_Vision/blob/main/demo.mp4
 
-## 📋 System Overview
+##  System Overview
 
 This is a complete end-to-end intelligent surveillance pipeline that:
 - Detects vehicles and license plates from video
-- Reads Bangladeshi license plates using Vision-Language Model
+- Reads Bangladeshi license plates using a Vision-Language Model
 - Predicts vehicle attributes (multitask learning)
 - Verifies detected data against registry database
 - Retrieves contextual vehicle and owner information
 - Flags suspicious inconsistencies
 - Compares performance against traditional OCR systems
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 Video Input → Frame Extraction → Vehicle Detection (YOLO) → Plate Localization
@@ -31,7 +31,7 @@ Information Retrieval Interface → Suspicious Activity Detection
 
 ## 💻 Hardware Requirements
 
-- **GPU:** NVIDIA RTX 3060 (12GB VRAM) or better
+- **GPU:** NVIDIA RTX 3060 (12GB VRAM)
 - **RAM:** 16GB minimum
 - **Storage:** 50GB free space
 - **OS:** Windows/Linux with CUDA support
